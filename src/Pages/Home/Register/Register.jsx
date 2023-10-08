@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import swal from 'sweetalert';
+import GoogleBtn from "../Login/GoogleLogin/GoogleBtn";
 
 
 const Register = () => {
@@ -71,6 +72,7 @@ const Register = () => {
         </div>
         <p>Already have an account <Link  className="text-orange-400 font-bold" to={'/login'}>Login</Link></p>
       </form>
+      <GoogleBtn></GoogleBtn>
     </div>
   </div>
 </div>

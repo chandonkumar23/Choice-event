@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
+import GoogleBtn from "./GoogleLogin/GoogleBtn";
 
 
 
@@ -54,14 +55,17 @@ const handleLogin = e =>{
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" required />
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+           
           </label>
         </div>
         <div className="form-control mt-6">
           <button className="btn btn-error">Login</button>
         </div>
         <p> Do not have an account <Link className="text-orange-500 font-bold" to={'/register'}>Register</Link></p>
+        <p className="text-center">___________or__________</p>
       </form>
+      
+      <GoogleBtn></GoogleBtn>
     </div>
   </div>
 </div>
