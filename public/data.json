@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "image": "https://i.postimg.cc/7ZzmwTqP/ac.jpg",
+      "title": "Academic Conferences",
+      "price": "$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+
+    },
+    {
+      "id": "2",
+      "image": "https://i.postimg.cc/bYG63542/techer.jpg",
+      "title": "Educational Technology Conferences",
+      "price":"$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+
+    },
+    {
+      "id": "3",
+      "image": "https://i.postimg.cc/6Q27DdKz/higher.jpg",
+      "title": "Teacher and Educator Conferences",
+      "price": "$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+
+    },
+    {
+      "id": " 4",
+      "image": "https://i.postimg.cc/52HN0br2/erlay.jpg",
+      "title": "Higher Education Conferences",
+      "price": "$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+
+    },
+    {
+      "id":" 5",
+      "image": "https://i.postimg.cc/1zrxRdyz/languagw.jpg",
+      "title": "Early Childhood Education Conferences",
+      "price":"$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+
+    },
+    {
+      "id": "6",
+      "image": "https://i.postimg.cc/1zrxRdyz/languagw.jpg",
+      "title": "Language and Literacy Conferences",
+      "price": "$480.00",
+      "decscription":"Language and literacy conferences serve as pivotal events in the field of education, catering to professionals and enthusiasts dedicated to fostering effective communication, literacy acquisition, and language proficiency. These conferences delve into a multifaceted array of topics, addressing the diverse needs of learners across various age groups and educational settings."
+    }
+  ]
+  
