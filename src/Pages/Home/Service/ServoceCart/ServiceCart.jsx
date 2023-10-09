@@ -22,7 +22,7 @@ const ServiceCart = ({ services}) => {
                         ? <p>{decscription.slice(0,100)} <Link className="text-orange-600 font-bold" to={`/more/${id}`}>Read More..</Link></p>
                         : <p>{decscription}</p>
                     }
-                    <button className="btn btn-error flex justify-center mx-auto hover:bg-orange-400 "> <Link to={`/detailes/${id}`}>Detailes</Link> </button>
+                   <Link className="btn btn-error flex justify-center mx-auto w-[130px] hover:bg-orange-400" to={`/detailes/${id}`}>Detailes</Link> 
                 </div>
               
             </div>
