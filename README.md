@@ -1,5 +1,5 @@
 # CHOICE Events
-Live Link: https://event-management-8ba41.web.app/teamm
+Live Link: https://event-management-8ba41.web.app/
 
 
 ## Features
