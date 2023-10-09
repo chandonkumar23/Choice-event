@@ -6,7 +6,7 @@ const Service = () => {
   
     return (
         <div className="bg-gray-100 w-11/12 mx-auto mt-5 rounded-md">
-         <div className="p-8">
+         <div className="p-8" data-aos="fade-up">
          <h1 className="text-4xl text-center font-extrabold bg-gradient-to-r from-orange-400 to-orange-700  text-transparent bg-clip-text">Our Services.</h1>
            <p className="text-center text-4xl font-extrabold -mt-2 text-orange-500">________</p>
          </div>

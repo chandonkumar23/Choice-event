@@ -12,7 +12,7 @@ const ServiceCart = ({ services}) => {
                 <div>
                     <img className="h-[200px] w-[340px] rounded-2xl " src={image} alt="" />
                 </div>
-                <div className="space-y-5">
+                <div className="space-y-5" data-aos="flip-right">
                     <h2 className="text-xl lg:text-xl  mx-4 font-bold">
                          {title}
                     </h2>

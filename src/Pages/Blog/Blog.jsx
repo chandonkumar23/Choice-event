@@ -3,7 +3,7 @@ const Blog = () => {
     return (
         <div className="w-full mx-auto">
             <div>
-                <div className="p-8">
+                <div className="p-8" data-aos="zoom-in-left">
                     <img className="h-[300px] w-[500px]" src="https://i.ibb.co/RvgF1Jk/product-school-S3hhrq-Lrg-YM-unsplash.jpg" alt="" />
                     <p className="text-gray-400">Date: 12 June 2023</p>
                     <p>Academic conferences are essential events in the academic calendar, providing scholars 
@@ -18,7 +18,7 @@ const Blog = () => {
                          planning your conference journey today and embrace the exciting world of academic conferences.</p>
                          <hr />
                 </div>
-                <div className="p-8">
+                <div className="p-8"data-aos="zoom-in-left">
                     <img className="h-[300px] w-[500px]" src="https://i.ibb.co/PWHs1LD/teemu-paananen-bzdhc5b3-Bxs-unsplash.jpg" alt="" />
                     <p className="text-gray-400">Date: 17 March 2022</p>
                     <p>In the dynamic realm of education, technology is shaping the way we teach, learn, and interact. Educational Technology (EdTech)
