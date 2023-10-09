@@ -1,8 +1,9 @@
-import { useContext } from "react";
+/* eslint-disable no-unused-vars */
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import GoogleBtn from "./GoogleLogin/GoogleBtn";
-
+import swal from 'sweetalert';
 
 
  
@@ -12,8 +13,8 @@ const Login = () => {
        const {SignIN} = useContext(AuthContext);
        const location = useLocation();
        const navigate = useNavigate();
-       console.log(location)
-
+      //  console.log(location)
+     const[logError , setLogError] =useState("")
 
 const handleLogin = e =>{
     e.preventDefault();
@@ -24,13 +25,17 @@ const handleLogin = e =>{
     console.log(email,password);
     SignIN (email ,password)
     .then( result =>{
-      console.log(result.user);
-      navigate(location ?.state ? location.state : '/');
+      if(SignIN){
+        swal("Log In", "", "success");
+      }
+      navigate(location ?.state ? location.state : '/' );
+      
     }
       
     )
     .catch(error =>{
-        console.error(error);
+      
+        setLogError(error.message);
     })
 }
 
@@ -57,6 +62,9 @@ const handleLogin = e =>{
           <label className="label">
            
           </label>
+         {
+          logError && <p className="text-red-700">{logError}</p>
+         }
         </div>
         <div className="form-control mt-6">
           <button className="btn btn-error">Login</button>

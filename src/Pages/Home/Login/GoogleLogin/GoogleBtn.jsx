@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../../../../Provider/AuthProvider";
 import { useLocation, useNavigate } from "react-router-dom";
-
+import swal from 'sweetalert';
 
 const GoogleBtn = () => {
     const { googleLogin} =useContext(AuthContext)
@@ -13,7 +14,9 @@ const GoogleBtn = () => {
    const handleGoogleLogin = (google) =>{
     google()
     .then( result =>{
-        console.log(result.user);
+        if(google){
+          swal("Done", "", "success");
+        }
         navigate(location ?.state ? location.state : '/');
     })
       

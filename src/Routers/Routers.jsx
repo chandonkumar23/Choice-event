@@ -8,12 +8,14 @@ import More from "../Pages/More/MOre";
 import PrivetRoute from "../Pages/privetRoute/privetRoute";
 import Detailes from "../Pages/Detailes/Detailes";
 import Gallary from "../Pages/Garllary/Gallary";
+import ErorPage from "../Pages/ErrorPage/ErorPage";
 
 
 const routers = createBrowserRouter([
    
     {  path:'/',
        element:<Root></Root>,    
+       errorElement:<ErorPage></ErorPage>,
         children:[  
             { path:'/',
             element:<Home></Home>,
