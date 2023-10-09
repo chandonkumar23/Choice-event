@@ -1,3 +1,4 @@
+
 const Testimonial = () => {
     return (
         <div>
@@ -6,7 +7,7 @@ const Testimonial = () => {
            <p className="text-center text-4xl font-extrabold -mt-2 text-orange-500">________</p>
            <p className="text-center font-bold text-gray-400">Customer Review</p>
          </div>
-         <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-3 w-11/12 mx-auto bg-slate-100 p-8 mb-5">
+         <div    className="grid  md:grid-cols-2 lg:grid-cols-3 gap-3 w-11/12 mx-auto bg-slate-100 p-8 mb-5">
             <div className="flex items-center gap-2 bg-white rounded-xl p-3 ">
                 <div><img className="h-[100px] w-[100px] rounded-full"  src="https://i.ibb.co/nRXSbbq/jake-nackos-IF9-TK5-Uy-KI-unsplash.jpg" alt="" /></div>
                 <div>
