@@ -20,7 +20,7 @@ const Register = () => {
        const password = form.get('password');
        console.log(nameFirst,imageURL , email , password);
         if(password.length < 6){
-          setSinError("6 no")
+          setSinError("password must be 6 characters")
           return;
         } else if (!/[A-Z]/.test(password)){
           setSinError("don't have a capital letter")

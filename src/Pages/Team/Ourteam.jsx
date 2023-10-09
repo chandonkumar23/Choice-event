@@ -48,7 +48,7 @@ const Ourteam = () => {
                <div> <img className="h-[100px] w-[100px] rounded-full border-4 border-orange-500" src="https://i.ibb.co/6tg2kYz/sergio-de-paula-c-Gmwf-HBDzk-unsplash.jpg" alt="" /></div>
               <div>
               <h2 className="font-bold">amily Brown</h2>
-                <p>Cameraman</p>
+                <p>Assistent</p>
               </div>
             </div>
             
