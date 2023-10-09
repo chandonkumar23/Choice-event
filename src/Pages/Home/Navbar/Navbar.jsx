@@ -35,6 +35,10 @@ const Navbar = () => {
 
         <li><Link to={'/register'}>Ragister</Link></li>
 
+        <li><Link to={'/blog'}>Blog</Link></li>
+
+        <li><Link to={'/team'}>Team</Link></li>
+
      
          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
      
