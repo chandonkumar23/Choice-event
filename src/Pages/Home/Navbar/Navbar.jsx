@@ -37,7 +37,7 @@ const Navbar = () => {
 
         <li><Link to={'/blog'}>Blog</Link></li>
 
-        <li><Link to={'/team'}>Team</Link></li>
+        <li><Link to={'/teamm'}>Team</Link></li>
 
      
          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -98,6 +98,23 @@ const Navbar = () => {
                         isPending ? "pending" : isActive ? "bg-red-400 " : ""
                         }>
                             Register
+          </NavLink>
+          </li>  
+
+          <li>  <NavLink  to="/blog"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "bg-red-400 " : ""
+                        }>
+                            Blog
+          </NavLink>
+          </li>  
+
+
+          <li>  <NavLink  to="/teamm"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "bg-red-400 " : ""
+                        }>
+                            Team
           </NavLink>
           </li>  
            

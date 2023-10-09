@@ -58,7 +58,7 @@ const Register = () => {
       <h1 className="text-5xl font-bold">Register Now!</h1>
       <p></p>
     </div>
-    <div className="card flex-shrink-0 w-full max-w-sm  bg-base-100">
+    <div className="card flex-shrink-0 w-full max-w-sm shadow-lg bg-base-100">
       <form onSubmit={handleRegister} className="card-body">
      
         <div className="form-control">
@@ -69,9 +69,9 @@ const Register = () => {
         </div>
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Image URL</span>
+            <span className="label-text">Photo URL</span>
           </label>
-          <input type="text" name="imageURL" placeholder="Last" className="input input-bordered" required />
+          <input type="text" name="imageURL" placeholder="PhotoURL" className="input input-bordered" required />
         </div>
         
         

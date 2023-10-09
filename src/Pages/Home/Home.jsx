@@ -15,6 +15,7 @@ const Home = () => {
             <Service></Service>
            <Gallary></Gallary>
            <Testimonial></Testimonial>
+           
          
         </div>
     );

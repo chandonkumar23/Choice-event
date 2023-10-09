@@ -10,6 +10,12 @@ import Detailes from "../Pages/Detailes/Detailes";
 
 import ErorPage from "../Pages/ErrorPage/ErorPage";
 
+import Ourteam from "../Pages/Team/Ourteam";
+import Blog from "../Pages/Blog/Blog";
+
+
+
+
 
 const routers = createBrowserRouter([
    
@@ -43,6 +49,14 @@ const routers = createBrowserRouter([
                 path:'/register',
                 element:<Register></Register>
             },
+            {
+                path:'/blog',
+                element:<PrivetRoute><Blog></Blog></PrivetRoute>
+            },
+            {
+                path:'/teamm',
+                element:<PrivetRoute><Ourteam></Ourteam></PrivetRoute>
+            }
            
         ]
     }
