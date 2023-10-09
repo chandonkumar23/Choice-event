@@ -7,7 +7,7 @@ import Root from "../Root/Root";
 import More from "../Pages/More/MOre";
 import PrivetRoute from "../Pages/privetRoute/privetRoute";
 import Detailes from "../Pages/Detailes/Detailes";
-import Gallary from "../Pages/Garllary/Gallary";
+
 import ErorPage from "../Pages/ErrorPage/ErorPage";
 
 
@@ -43,10 +43,7 @@ const routers = createBrowserRouter([
                 path:'/register',
                 element:<Register></Register>
             },
-            {
-                path:'/gallary',
-                element:<PrivetRoute><Gallary></Gallary></PrivetRoute>
-            }
+           
         ]
     }
 ])
